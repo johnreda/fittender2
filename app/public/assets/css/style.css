@@ -1,0 +1,50 @@
+
+body{
+		font-family: 'Lato', sans-serif;
+
+}
+
+.topSection{
+	height: 100vh;
+	background-image: url(../images/city1copy.png);
+
+	
+}
+
+#fitText{
+	margin-top: -155px;
+	font-size: 140px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+#fitLogo{
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 140px;
+	width: 140px;
+	display: inline;
+}
+
+.white-overlay{
+	background-color: #000;
+	opacity: 0.5;
+	z-index: 1000;
+}
+
+#quickPitch1, #quickPitch2{
+	color: #fff;
+}
+
+#email{
+	color: #fff;
+}
+
+.cta1{
+
+}
+
+#section3{
+	background-color: #dadada;
+	color:#fff;
+}
