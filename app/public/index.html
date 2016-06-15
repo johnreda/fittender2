@@ -4,16 +4,15 @@
 	<meta charset="UTF-8">
 	<title>FitTender</title>
 		
-		<!-- MATERIALIZE AND JQUERY -->
+		<!-- BOOTSTRAP AND JQUERY -->
 
 		<script src="https://code.jquery.com/jquery.js"></script>
 		
-		<!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-		<!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-		          
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
@@ -30,38 +29,43 @@
 
 	
 	<!-- SECTION 1:  TOP SECTION-->
-<div class="topSection">
-		<div class="row">
-				<div class="col sm12 m8 lg8" id="topLeft">
-						<img src="assets/images/logowave.svg" alt="LOGO" id="fitLogo">
-							<h1 class= "center-align" id="fitText">
-								<b>Fit</b>Tender
-							</h1>
-				</div>
-			</div>
+	<div class="outer-box">
 
+			<div class="main-content">
+				<img src="assets/images/logowave.svg" alt="FitTender Logo" id="fitLogo">
+				<!-- <h1 class="text-center" id="logoText">
+					FitTender
+				</h1> -->
+				<h3 class="text-center animated fadeInLeft" id="quickPitch1">
+					Explore new 
+					<span class="typer" data-delay="40" data-delete-delay="900" data-words="Neighborhoods, Restaurants, Bars" data-colors="gold" id="scrollText">
+						
+					</span>
+				</h3> 
 
-		<div class="row">
-			<div class="col sm12 m8 lg8 offset-m4">
-				<h3 class="center-align animated fadeInLeft" id="quickPitch1">
-					EXPLORE NEW NEIGHBORHOODS.
+				<h3 class="text-center animated fadeInRight" id="quickPitch2">
+					Experience your neighborhood in new ways.
 				</h3>
-				<h3 class="center-align animated fadeInRight" id="quickPitch2">
-					EXPERIENCE YOUR NEIGHBORHOOD IN NEW WAYS.
-				</h3>
+
+
+				<form>
+					<div class="row">
+					
+				        <h4 class="text-center" id="signUpText">
+				        	SIGN UP NOW TO BE ADDED TO THE WAITLIST
+				        </h4>
+							<br><br>
+				        <div class="input-field col-sm-12 col-md-4 col-md-offset-4 z-depth-5" >
+				            <div class="form-group">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" id="emailForm" placeholder="Email">
+						  </div>
+				        </div>
+			      </div>
+			    </form>
 			</div>
-		</div>
-
-
-	<div class="row">
-		<div class="col s12 m4 lg4">
-	        <div class="input-field col s12">
-	          <input id="email" type="email" class="validate">
-	          <label for="email">Email</label>
-       		 </div>
-		</div>
+		
 	</div>
-</div>
 
 
 
@@ -71,88 +75,127 @@
 	<div class="cta1">
 
 		<div class="row">
-			<div class="col sm12 m6 lg 6 offset-m3">
+			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-5">
 				<h3 class="center-align">
 					SIGN UP PERKS
 				</h3>
 			</div>
 		</div>
+		
 		<div class="row" id="section2">
-			<div class="col sm12 m4 lg4">
-				<h4 class="center-align">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+
+				<br>
+				
+					<img src="assets/icons/animat-diamond.gif" alt="Trophy Icon" id="trophyIcon">
+				<br><br>
+				<h4 class="text-center">
 					FIRST ROUND ACCESS
 				</h4>
-				<br>
-				<p class='center-align'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit recusandae iure, accusamus inventore est, adipisci modi ipsa deleniti cumque, laudantium doloremque enim voluptate commodi iste magnam molestiae nisi quam placeat.
+				<p class='text-center'>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit recusandae iure, accusamus inventore est, adipisci modi ipsa deleniti cumque, laudantium doloremque enim voluptate commodi iste magnam molestiae nisi quam placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nihil molestiae dolorum nostrum fugit facere eum, minima praesentium aperiam quo eaque deleniti necessitatibus fuga, reiciendis, aspernatur ea quis voluptates veritatis!
 				</p>
 			</div>
 
-			<div class="col sm12 m4 lg4">
-				<h4 class="center-align">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+
+				<br>
+
+					<img src="assets/icons/animat-lightbulb.gif" alt="Trophy Icon" id="trophyIcon">
+				<br><br>
+				<h4 class="text-center">
 					WELLNESS RAFFLES/GIVEAWAYS
 				</h4>
-				<br>
-				<p class='center-align'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit recusandae iure, accusamus inventore est, adipisci modi ipsa deleniti cumque, laudantium doloremque enim voluptate commodi iste magnam molestiae nisi quam placeat.
+				<p class='text-center'>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit recusandae iure, accusamus inventore est, adipisci modi ipsa deleniti cumque, laudantium doloremque enim voluptate commodi iste magnam molestiae nisi quam placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem alias illo quas beatae! Ut eveniet cumque cupiditate enim at ad accusantium laboriosam dolor debitis, repudiandae adipisci, temporibus labore, quia odit!
 				</p>
 			</div>
 
-			<div class="col sm12 m4 lg4">
-				<h4 class="center-align">
+			<div class="col-sm-12 col-md-4  col-lg-4">
+				
+				<br>
+
+					<img src="assets/icons/animat-rocket.gif" alt="Trophy Icon" id="trophyIcon">
+				<br><br>
+				<h4 class="text-center">
 					EXPLORE GUIDES
 				</h4>
-				<br>
-				<p class='center-align'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit recusandae iure, accusamus inventore est, adipisci modi ipsa deleniti cumque, laudantium doloremque enim voluptate commodi iste magnam molestiae nisi quam placeat.
+				<p class='text-center'>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit recusandae iure, accusamus inventore est, adipisci modi ipsa deleniti cumque, laudantium doloremque enim voluptate commodi iste magnam molestiae nisi quam placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptatibus magni a itaque ut deserunt, alias id omnis ullam quis eum molestiae culpa veniam, necessitatibus delectus repellendus earum nesciunt vero.
 				</p>
 			</div>
 		</div>
 	</div>
+	<br><br><br><br>
 	</div>
 
 	<!-- SECTION 3: WHY FITTENDER -->
 <div class="row" id="section3">
-		<h3 class="center-align">
+		<h2 class="text-center">
 			WHY FITTENDER?
-		</h3>
+		</h2>
 
 
 	<div class="row">
-		<div class="col sm12 m6 lg6 offset-m3">
-			<p class= "center-align"> 
+		<div class="col-sm-12 col-md-8 col-lg-8 col-lg-offset-2 text-center">
+			<h3> 
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel maxime aliquam, placeat excepturi perspiciatis itaque, eius obcaecati nemo quaerat libero rem optio quasi magnam minima unde dolorum odio, porro!
-			</p>
+			</h3>
 		</div>
+	</div>
+
+	<br><br><br><br>
+
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col sm12 m4 lg4">
-				<h4 class="center-align">
+			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-1">
+				<img src="assets/images/6.jpg" alt="Image 1" id="whyFitImg1">
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-1">
+				<h4 class="text-center">
 					FUN
 				</h4>
-				<p class="center-align">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde id modi sed maxime, cumque tempora dolore, architecto accusantium, vero a impedit repellendus sunt pariatur debitis incidunt quod, beatae quia.
+				<p class="text-center">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde id modi sed maxime, cumque tempora dolore, architecto accusantium, vero a impedit repellendus sunt pariatur debitis incidunt quod, beatae quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempore esse pariatur, temporibus beatae deserunt odit itaque dolorem placeat, veritatis est officiis quasi dignissimos sunt, quis nihil delectus ratione a!
 				</p>
 			</div>
+		</div>
 
-			<div class="col sm12 m4 lg4">
-				<h4 class="center-align">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-3">
+				<h4 class="text-center">
 					SIMPLE
 				</h4>
-				<p class="center-align">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde id modi sed maxime, cumque tempora dolore, architecto accusantium, vero a impedit repellendus sunt pariatur debitis incidunt quod, beatae quia.
+				<p class="text-center">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde id modi sed maxime, cumque tempora dolore, architecto accusantium, vero a impedit repellendus sunt pariatur debitis incidunt quod, beatae quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit molestiae atque cupiditate molestias quisquam dolores velit modi harum saepe voluptatem odit architecto doloribus, iste, magni tenetur repudiandae magnam minus cumque.
 				</p>
 			</div>
 
-			<div class="col sm12 m4 lg4">
-				<h4 class="center-align">
+			<div class="col-sm-12 col-md-2 col-lg-2">
+				<img src="assets/icons/animat-search.gif" alt="Search Gif" id="whyFit2">
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-5">
+				<h4 class="text-center">
 					POWERFUL
 				</h4>
-				<p class="center-align">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde id modi sed maxime, cumque tempora dolore, architecto accusantium, vero a impedit repellendus sunt pariatur debitis incidunt quod, beatae quia.
+				<p class="text-center">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum unde id modi sed maxime, cumque tempora dolore, architecto accusantium, vero a impedit repellendus sunt pariatur debitis incidunt quod, beatae quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dignissimos aperiam aliquam quam quos id excepturi ut animi dolorum incidunt, ex, eos, ratione voluptas. Repudiandae earum nemo omnis eaque minus.
 				</p>
 			</div>
-
 		</div>
+		</div>
+	</div>
 	</div>
 </div>
 	<!-- SECTION 4: GUIDES -->
@@ -161,6 +204,8 @@
 
 	<!-- SECTION 6: CTA SECTION 2 -->
 
-	<!--  -->
+	<!-- LINK TO TYPER.JS -->
+	<script src='assets/js/typer.js'></script>
+
 </body>
 </html>

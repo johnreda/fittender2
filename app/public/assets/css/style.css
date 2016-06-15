@@ -1,14 +1,42 @@
 
 body{
 		font-family: 'Lato', sans-serif;
+		height: 100vh;
 
 }
 
-.topSection{
+.outer-box{
+	margin: 0;
 	height: 100vh;
-	background-image: url(../images/city1copy.png);
+	background-image: url(../images/city1.png);
+	z-index: -100;
+}
 
-	
+.outer-box{
+	background-color: #126ff5;
+}
+
+.inner-box{
+	margin: 0;
+	background-color: #000;
+	opacity: 0.3;
+	height: 100vh;
+}
+
+.inner-box h1{
+	margin: 0;
+	opacity: 1;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	padding-top: 50px;
+	font-size: 150px;
+}
+
+#subButton{
+	background-color: #fff;
+	color: #dcdcdc;
+	float: right;
+	margin-right: -10px;
 }
 
 #fitText{
@@ -18,33 +46,51 @@ body{
 	color: #fff;
 }
 
+#scrollText{
+	color: #fff;
+}
+
 #fitLogo{
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 600px;
 	height: 140px;
 	width: 140px;
 	display: inline;
+	z-index: 1;
+	color: #fff;
 }
 
-.white-overlay{
-	background-color: #000;
-	opacity: 0.5;
-	z-index: 1000;
+#signUpText{
+	color: #fff;
+	font-size: 40px;
 }
 
 #quickPitch1, #quickPitch2{
 	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
 }
 
-#email{
-	color: #fff;
+
+.input-field{
+	background-color: #fff;
+}
+#whyFitImg1{
+	height: 400px;
 }
 
-.cta1{
+#whyFit2{
+	height: 250px;
+}
 
+#trophyIcon{
+	height: 200px;
+	width: 200px;
+	margin-left: 80px;
 }
 
 #section3{
 	background-color: #dadada;
 	color:#fff;
+	height: 100vh;
 }

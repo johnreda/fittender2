@@ -3,6 +3,7 @@
 		var express = require('express');
 		var bodyParser = require('body-parser');
 		var path = require('path');
+		var methodOverride = require('method-override');
 
 
 // ==========================================================
@@ -25,7 +26,8 @@
 app.use(bodyParser.json()); 
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); 
 app.use(bodyParser.urlencoded({ extended: true })); 
-app.use(express.static(__dirname + '/public'));
+app.use(methodOverride('X-HTTP-Method-Override')); 
+app.use(express.static(__dirname + '/app/public'));
 
 
 // ==========================================================
