@@ -75,8 +75,17 @@ body{
 .input-field{
 	background-color: #fff;
 }
+
 #whyFitImg1{
 	height: 400px;
+}
+
+#whyFitImg2{
+	height: 200px;
+}
+
+#whyFitImg3{
+	height: 200px;
 }
 
 #whyFit2{
@@ -92,5 +101,5 @@ body{
 #section3{
 	background-color: #dadada;
 	color:#fff;
-	height: 100vh;
+	/*height: 100vh;*/
 }
