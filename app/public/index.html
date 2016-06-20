@@ -19,9 +19,12 @@
 		<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="assets/css/animate.css">
+
+		<script src="https://waitlisted.co/assets/v2/embed.js" type="text/javascript"></script>
 
 		<meta content="width=device-width, initial-scale=1" name="viewport">
 
@@ -32,47 +35,49 @@
 	
 	<!-- SECTION 1:  TOP SECTION-->
 	<div class="outer-box">
-
+		<div class="inner-box">
 			<div class="main-content">
-				<div class="col-xs-12">
+				<div class="col-sm-12 col-md-12 col-lg-12">
 				<img src="assets/images/logowave.svg" alt="FitTender Logo" id="fitLogo">
 				<!-- <h1 class="text-center" id="logoText">
 					FitTender
 				</h1> -->
 				<h3 class="text-center animated fadeInLeft" id="quickPitch1">
-					Explore new 
-					<span class="typer" data-delay="40" data-delete-delay="900" data-words="Neighborhoods, Restaurants, Bars" data-colors="gold" id="scrollText">
-						
+					Discover the best 
+					<span class="typer" data-delay="40" data-delete-delay="900" data-words="workouts, classes, events, neighborhoods, restaurants, studios" data-colors="gold" id="scrollText">
 					</span>
+					in a new way.
 				</h3> 
-
-				<h3 class="text-center animated fadeInRight" id="quickPitch2">
-					Experience your neighborhood in new ways.
-				</h3>
-
-
-				<form>
-					<div class="row">
-					
-				        <h4 class="text-center" id="signUpText">
-				        	SIGN UP NOW TO BE ADDED TO THE WAITLIST
-
-				        </h4>
-							<br><br>
-				        <div class="input-field col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 z-depth-5" >
-				            <div class="form-group">
-						    <label for="exampleInputEmail1">Email address</label>
-						    <input type="email" class="form-control" id="emailForm" placeholder="Email">
-						  </div>
-				        </div>
-			      </div>
-			    </form>
-
+			</div>
+				<div class="col-sm-4  col-sm-offset-2 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5">
+					<button type="button" class="btn btn-primary btn-lg outline">Sign Up</button>
+				</div>	
+				
 			</div>
 		</div>
 	</div>
 
 
+	<!-- SIGN UP MODAL -->
+	<div class="modal fade">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	        <h4 class="modal-title">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>One fine body&hellip;</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 
 
 	<!-- SECTION 2: CTA SECTION 1 -->
@@ -80,15 +85,15 @@
 	<div class="cta1">
 
 		<div class="row">
-			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-5">
-				<h3 class="center-align">
+			<div class="col-sm-12 col-md-6 col-lg-6 col-lg-offset-3">
+				<h2 class="text-center" id="signUpPerks">
 					SIGN UP PERKS
-				</h3>
+				</h2>
 			</div>
 		</div>
 		
 		<div class="row" id="section2">
-			<div class="col-sm-12 col-md-4 col-lg-4">
+			<div class="col-sm-12 col-md-3 col-lg-3 ">
 
 				<br>
 				
@@ -102,7 +107,7 @@
 				</p>
 			</div>
 
-			<div class="col-sm-12 col-md-4 col-lg-4">
+			<div class="col-sm-12 col-md-3 col-lg-3 col-lg-offset-1">
 
 				<br>
 
@@ -116,7 +121,7 @@
 				</p>
 			</div>
 
-			<div class="col-sm-12 col-md-4  col-lg-4">
+			<div class="col-sm-12 col-md-3  col-lg-3 col-lg-offset-1">
 				
 				<br>
 
@@ -208,6 +213,13 @@
 
 	<!-- LINK TO TYPER.JS -->
 	<script src='assets/js/typer.js'></script>
+
+	<script type='text/javascript'>
+
+		
+	</script>
+
+
 
 </body>
 </html>
