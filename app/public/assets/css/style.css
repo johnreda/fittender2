@@ -6,6 +6,7 @@ body{
 }
 
 .outer-box{
+	flex: 1.0;
 	margin: 0;
 	height: 100vh;
 	background-image: url(../images/city1.png);
@@ -99,6 +100,9 @@ body{
 	font-weight: 600;
 }
 
+#cta1{
+	flex: 1;
+}
 
 #signUpPerks{
 	font-size: 70px;
